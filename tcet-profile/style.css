@@ -234,9 +234,6 @@ ul.pleft{
 }
 div#sidebar{
     width: 22.699%;
-    /* height: 100%; */
-    justify-content: flex-start;
-    /* float: left; */
     clear: left;
 }
 div#content{
@@ -282,12 +279,33 @@ li{
 .midboldtxtblue{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } 
-@media only screen and (max-width: 1440px) {
-    /* .sidebar{
-        display: block;
-    }
-    .facultyholder{
+@media only screen and (max-width: 810px) {
+    div#sidebar{
+        width: 100%;
         margin: auto;
+        clear: none;
+    }
+    #top_right_content{
+        width: 100%;
+        margin-top: 200px;
 
-    } */
+    }
+    div#content{
+        width: 80%;
+        margin: auto;
+        margin-left: 0px;
+        height: 100%;
+    }
+
+    div#mamimg{
+        float: none;
+        width: 40%;
+        /* margin: auto; */
+    }
 }
+/* 
+@media only screen and (max-width: 723px) {
+    div#content{
+        font-size: larger;
+    }
+} */
